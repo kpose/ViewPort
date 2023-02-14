@@ -41,7 +41,7 @@ struct MainTabView: View {
                     self.selectedIndex = 3
                 }
                 .tabItem {
-                    Image(systemName: "tray")
+                    Image(systemName: "envelope")
                 }.tag(3)
         }
     }
