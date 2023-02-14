@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A277F28299BB74D00127689 /* TweetRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A277F27299BB74D00127689 /* TweetRowView.swift */; };
+		9A277F2A299BB7B700127689 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A277F29299BB7B700127689 /* FeedView.swift */; };
 		9A68D080299B97A0002F0821 /* ViewPortApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A68D07F299B97A0002F0821 /* ViewPortApp.swift */; };
 		9A68D082299B97A0002F0821 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A68D081299B97A0002F0821 /* ContentView.swift */; };
 		9A68D084299B97A4002F0821 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A68D083299B97A4002F0821 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9A277F27299BB74D00127689 /* TweetRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetRowView.swift; sourceTree = "<group>"; };
+		9A277F29299BB7B700127689 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		9A68D07C299B97A0002F0821 /* ViewPort.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewPort.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A68D07F299B97A0002F0821 /* ViewPortApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewPortApp.swift; sourceTree = "<group>"; };
 		9A68D081299B97A0002F0821 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +36,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9A277F24299BA2F000127689 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		9A277F25299BA30600127689 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9A277F29299BB7B700127689 /* FeedView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9A277F26299BB72E00127689 /* Tweets */ = {
+			isa = PBXGroup;
+			children = (
+				9A277F27299BB74D00127689 /* TweetRowView.swift */,
+			);
+			path = Tweets;
+			sourceTree = "<group>";
+		};
 		9A68D073299B97A0002F0821 = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +131,7 @@
 		9A68D092299B98E1002F0821 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				9A277F26299BB72E00127689 /* Tweets */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -111,6 +139,8 @@
 		9A68D093299B98F2002F0821 /* Feed */ = {
 			isa = PBXGroup;
 			children = (
+				9A277F24299BA2F000127689 /* ViewModels */,
+				9A277F25299BA30600127689 /* View */,
 			);
 			path = Feed;
 			sourceTree = "<group>";
@@ -185,8 +215,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A277F2A299BB7B700127689 /* FeedView.swift in Sources */,
 				9A68D082299B97A0002F0821 /* ContentView.swift in Sources */,
 				9A68D080299B97A0002F0821 /* ViewPortApp.swift in Sources */,
+				9A277F28299BB74D00127689 /* TweetRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
