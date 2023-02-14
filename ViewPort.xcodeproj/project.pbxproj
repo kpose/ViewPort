@@ -51,6 +51,10 @@
 		9A68D07E299B97A0002F0821 /* ViewPort */ = {
 			isa = PBXGroup;
 			children = (
+				9A68D090299B989F002F0821 /* Extensions */,
+				9A68D08E299B9895002F0821 /* Model */,
+				9A68D08D299B988C002F0821 /* Service */,
+				9A68D091299B98D8002F0821 /* Core */,
 				9A68D07F299B97A0002F0821 /* ViewPortApp.swift */,
 				9A68D081299B97A0002F0821 /* ContentView.swift */,
 				9A68D083299B97A4002F0821 /* Assets.xcassets */,
@@ -65,6 +69,50 @@
 				9A68D086299B97A4002F0821 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9A68D08D299B988C002F0821 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		9A68D08E299B9895002F0821 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9A68D090299B989F002F0821 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9A68D091299B98D8002F0821 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				9A68D093299B98F2002F0821 /* Feed */,
+				9A68D092299B98E1002F0821 /* Components */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		9A68D092299B98E1002F0821 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		9A68D093299B98F2002F0821 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Feed;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
